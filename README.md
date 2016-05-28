@@ -4,6 +4,8 @@ Never type ./node_modules/.bin again!
 
 Make locally-installed node modules executable by name by adding ./node_modules/.bin to the $PATH
 
+Works for bash, fish, and zsh.
+
 ## Why?
 
 The goal of this is to avoid "works on my machine" problems.
