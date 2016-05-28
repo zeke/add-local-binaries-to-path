@@ -1,0 +1,32 @@
+{
+  "name": "add-local-binaries-to-path",
+  "version": "1.0.0",
+  "description": "Never type ./node_modules/.bin again! Make locally-installed node modules executable by name by adding ./node_modules/.bin to the $PATH",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "postinstall": "node index.js"
+  },
+  "repository": "https://github.com/zeke/add-local-binaries-to-path",
+  "keywords": [
+    "npm",
+    "node",
+    "cli",
+    "binaries",
+    "path",
+    "bash",
+    "zsh",
+    "fish",
+    "shell",
+    "exec"
+  ],
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/add-local-binaries-to-path/issues"
+  },
+  "homepage": "https://github.com/zeke/add-local-binaries-to-path#readme",
+  "dependencies": {
+    "shells": "^2.0.0"
+  }
+}
