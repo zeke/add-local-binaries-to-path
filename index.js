@@ -35,7 +35,6 @@ Done! Restart your shell(s) and give the comands below a try. You should see
 that shrug is now executable within the foo directory, even though it's not
 globally installed.
 
-
 mkdir foo
 cd foo
 npm init --yes
