@@ -30,7 +30,11 @@ shells.forEach(shell => {
   console.log(`${shell.file} updated with \`${cmd}\``)
 })
 
-console.log(`Done! Restart your shell(s) and give this a try:
+console.log(`
+Done! Restart your shell(s) and give the comands below a try. You should see
+that shrug is now executable within the foo directory, even though it's not
+globally installed.
+
 
 mkdir foo
 cd foo
@@ -38,9 +42,4 @@ npm init --yes
 npm i shrug --save
 shrug
 which shrug
-
-You should see that shrug is now executable within the foo directory,
-even though you don't have shrug installed globally.
-
-Happy hacking!
 `)
